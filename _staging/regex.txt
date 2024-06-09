@@ -1,0 +1,6 @@
+https://regex-generator.olafneumann.org/?sampleText=HPN01-1002-RDS&flags=Pi&selection=0%7CMultiple%20characters,3%7CDigit,5%7CCharacter,4%7CDigit,6%7CAlphanumeric%20characters,10%7CCharacter,11%7CAlphanumeric%20characters
+
+https://regexr.com/80r8i
+
+
+[A-Za-z]+\d\d-[A-Za-z0-9]+-[A-Za-z0-9]+

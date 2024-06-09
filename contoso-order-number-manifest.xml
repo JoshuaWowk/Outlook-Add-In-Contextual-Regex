@@ -81,7 +81,8 @@
               <Rule xsi:type="RuleCollection" Mode="And">
                 <Rule xsi:type="ItemIs" ItemType="Message" />
                 <Rule xsi:type="ItemHasRegularExpressionMatch" RegExName="OrderNumber"
-                  RegExValue="CO-\d{9}" PropertyName="BodyAsPlaintext" />
+                  RegExValue="[A-Za-z]+\d\d-[A-Za-z0-9]+-[A-Za-z0-9]+"
+                  PropertyName="BodyAsPlaintext" />
               </Rule>
             </ExtensionPoint>
           </DesktopFormFactor>
