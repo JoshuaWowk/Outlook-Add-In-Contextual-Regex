@@ -13,7 +13,7 @@ function loadEntities() {
     var selectedMatches = Office.context.mailbox.item.getSelectedRegExMatches();
     if (selectedMatches) {
       var url = 'https://centralusdtapp52.epicorsaas.com/SaaS5127/Apps/Erp/Home/#/view/OMGO3004/Erp.UI.PartEntry?channelid=0&layerVersion=0&baseAppVersion=0&company=161830&site=MfgSys&pageId=Details&pageChanged=true&KeyFields.PartNum=' + selectedMatches.OrderNumber;
-      var displayText = 'Click to open Part Tracker for ' + selectedMatches.PartNumber;
+      var displayText = 'Click to open Part Tracker for ' + selectedMatches.OrderNumber;
       $("#selected-match").html('<a href="' + url + '" target="_blank">' + displayText + '</a>');
     } else {
       $("#selected-match").text("Selected matches was null");
@@ -25,7 +25,7 @@ function loadEntities() {
   var allMatches = Office.context.mailbox.item.getRegExMatches();
   if (allMatches) {
     var url = 'https://centralusdtapp52.epicorsaas.com/SaaS5127/Apps/Erp/Home/#/view/OMGO3004/Erp.UI.PartEntry?channelid=0&layerVersion=0&baseAppVersion=0&company=161830&site=MfgSys&pageId=Details&pageChanged=true&KeyFields.PartNum=' + allMatches.OrderNumber;
-    var displayText = 'Click to open Part Tracker for ' + allMatches.PartNumber;
+    var displayText = 'Click to open Part Tracker for ' + allMatches.OrderNumber;
     $("#all-matches").html('<a href="' + url + '" target="_blank">' + displayText + '</a>');
   } else {
     $("#all-matches").text("All matches was null");
