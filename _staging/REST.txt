@@ -1,0 +1,1 @@
+https://centralusdtapp52.epicorsaas.com/saas5127/api/v2/odata/161830/Erp.BO.PartSvc/Parts('161830','<PART NUMBER HERE>')
