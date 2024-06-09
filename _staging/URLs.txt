@@ -1,0 +1,1 @@
+https://centralusdtapp52.epicorsaas.com/SaaS5127/Apps/Erp/Home/#/view/OMGO3004/Erp.UI.PartEntry?channelid=0&layerVersion=0&baseAppVersion=0&company=161830&site=MfgSys&pageId=Details&pageChanged=true&KeyFields.PartNum=<PartNumber>
