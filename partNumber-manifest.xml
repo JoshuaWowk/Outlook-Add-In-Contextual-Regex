@@ -11,7 +11,7 @@
 
   <!-- IMPORTANT! Id must be unique for your add-in, if you reuse this manifest ensure that you
   change this id to a new GUID. -->
-  <Id>NEW_GUID_HERE</Id>
+  <Id>325b1db6-8b85-48bc-a5b7-3d64a1743164</Id>
 
   <!-- Version. Updates from the store only get triggered if there is a version change. -->
   <Version>1.0.0.0</Version>
