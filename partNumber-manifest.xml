@@ -19,7 +19,7 @@
   <DefaultLocale>en-US</DefaultLocale>
   <!-- The display name of your add-in. Used on the store and various places of the Office UI such
   as the add-ins dialog. -->
-  <DisplayName DefaultValue="HPNE Part Number Add-in" />
+  <DisplayName DefaultValue="Epicor Part Number Lookup" />
   <Description
     DefaultValue="A simple add-in that highlights and links to Epicor part numbers." />
 
